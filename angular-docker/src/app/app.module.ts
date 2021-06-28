@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AlabamaComponent } from './components/alabama/alabama.component';
+import { SweetComponent } from './components/sweet/sweet.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlabamaComponent
+    AlabamaComponent,
+    SweetComponent
   ],
   imports: [
     BrowserModule,
